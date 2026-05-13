@@ -1,5 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
+import React from 'react'
+import './App.css'
 import { useEffect } from "react";
 import "./index.css";
 
@@ -186,6 +188,18 @@ function App() {
   <div class="hero-eyebrow">
     Cloud & DevOps Engineer
   </div>
+
+  <div className="hero-image-wrapper">
+    <img
+      src="/profile.webp"
+      alt="Lakshmi Priyanka"
+      class="hero-image"
+      width="180"
+      height="180"
+      loading="eager"
+      decoding="async"
+    />
+  </div> 
 
   <h1 class="hero-name">
 
@@ -666,7 +680,7 @@ function App() {
 </section>
 
 <!-- PROJECTS -->
-<section id="projects">
+<section id="projects" loading="lazy">
 
   <div class="container">
 
