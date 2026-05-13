@@ -146,9 +146,10 @@ function App() {
   </ul>
 
   <button
-    class="hamburger"
-    id="hamburger"
-  >
+  class="hamburger"
+  id="hamburger"
+  aria-label="Open Navigation Menu"
+>
 
     <span></span>
     <span></span>
@@ -214,6 +215,7 @@ function App() {
     <a
       href="#projects"
       class="btn btn-primary"
+      aria-label="View My Projects"
     >
       View My Work
     </a>
@@ -221,7 +223,10 @@ function App() {
     <a
       href="/RESUME_PRIYANKA1.pdf"
       target="_blank"
+      rel="noreferrer"
       class="btn btn-outline"
+      aria-label="View Resume"
+
     >
       View Resume
     </a>
@@ -722,16 +727,20 @@ function App() {
 
           <a
             href="https://github.com/Priyanka05f0/multi-region-kubernetes-platform"
+            rel="noreferrer"
             target="_blank"
             class="project-link"
+            aria-label="Open Project Link"
           >
             GitHub Repo
           </a>
 
           <a
             href="https://drive.google.com/file/d/1ZMIe38R3OuVCA4kEKksKQvZisDO3mYYB/view"
+            rel="noreferrer"
             target="_blank"
             class="project-link"
+            aria-label="Open Project Link"
           >
             Demo Video
           </a>
@@ -779,6 +788,7 @@ function App() {
         href="https://github.com/Priyanka05f0"
         target="_blank"
         class="contact-link"
+        aria-label="Open GitHub Profile"
       >
         GitHub
       </a>
@@ -787,6 +797,7 @@ function App() {
         href="https://www.linkedin.com/in/lakshmi-priyanka-bethampudi-b776ba2aa/"
         target="_blank"
         class="contact-link"
+        aria-label="Open LinkedIn Profile"
       >
         LinkedIn
       </a>
