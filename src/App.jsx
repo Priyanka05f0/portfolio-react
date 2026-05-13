@@ -190,7 +190,7 @@ function App() {
 
     Lakshmi <br />
 
-    <span>Priyanka.</span>
+    <span>Priyanka Bethampudi.</span>
 
   </h1>
 
@@ -767,7 +767,9 @@ function App() {
     <div class="contact-links">
 
       <a
-        href="mailto:lakshmipriyanakabethampudi.23@gmail.com"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=lakshmipriyanakabethampudi.23@gmail.com"
+        target="_blank"
+        rel="noreferrer"
         class="contact-link"
       >
         Email
